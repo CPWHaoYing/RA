@@ -1,0 +1,101 @@
+.main{
+  	width: 1024px;
+  	height: 539px;
+
+  	padding-top: 120px;
+  	margin-bottom: 85px;
+  	font-family: 'Lato', sans-serif;
+  	font-size: 12px;
+  	line-height: 16px;
+  	color: #949499;
+}
+.title_box{
+	width: 289px;
+	height: 131px;
+	background-color: rgb(38, 235, 201);
+	float: center;
+}
+.title{
+	padding-left:49px;
+	padding-top:22px;
+	font-size: 58px;
+	line-height: 43px;
+	letter-spacing: -2px;
+	color: #FFF;
+	font-family: 'Conduit', sans-serif;
+	text-transform:uppercase;
+}
+
+
+.about_part{
+	position: relative;
+	top: 68px;
+	left: 32px;
+	background-color: #FFF;
+	width: 496px;
+	height: 424px;
+}
+.about_text_left{
+	position: absolute;
+	top:18px; 
+	left:18px;
+	width: 215px;
+	height: 478px;
+}
+.about_text_right{
+	position: absolute;
+	top:0px; 
+	left: 240px;
+	width: 242px;
+	height: 478px;
+}
+.link{
+	padding-top: 4px;
+}
+.line{
+	padding-bottom: 14px;
+	padding-top: 0px;
+
+}
+.line img{
+	display:block;
+	border:none;
+}
+
+
+#subtitle_box{
+  	font-size: 16px;
+  	line-height: 19px;
+  	font-weight: bold;
+  	color: rgb(38, 235, 201);
+  	padding-bottom: 14px;
+  	padding-left: 4px;
+}
+.subtitle_under_box{
+  	padding-bottom: 14px;
+  	padding-left: 4px;
+  	text-transform:uppercase;
+}
+.subtitle_under_box_b{
+  	padding-bottom: 18px;
+  	padding-left: 4px;
+  	text-transform:uppercase;
+}
+
+#visit_site{
+	margin-top:4px;
+	background-image:url('../img/button/visit_site.jpg');
+	cursor: pointer;
+	width:53px;
+	height:14px;
+	background-repeat:no-repeat;
+}
+
+#download{
+	margin-top:4px;
+	background-image:url('../img/button/download.jpg');
+	cursor: pointer;
+	width:68px;
+	height:14px;
+	background-repeat:no-repeat;
+}

@@ -1,0 +1,20 @@
+.imageContainer {
+    width: 370px;
+    height: 464px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.imageContainer * { cursor: pointer }
+
+.caption {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-weight: 700;
+    width: 370px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 0;
+}

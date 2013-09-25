@@ -1,0 +1,139 @@
+.main_mobile{
+	width:640px;
+	padding-bottom: 36px;
+	background-color: rgb(233,233,233);
+}
+.title_bg{
+	width:100%;
+	height:231px;
+	background-color: rgb(233,233,233);
+	margin-bottom: 2px;
+}
+.title{
+	width:450paddingpx;
+	height:43px;
+	font-family: 'Conduit';
+    color:rgb(38,235,201);
+    font-size:60px;
+    letter-spacing: -2px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-top:33px;
+    margin-left:38px;
+}
+.text_04{
+ font-family: 'Lato';
+ color:rgb(88,89,91);
+ font-size:22px;
+ line-height: 27px;
+ letter-spacing: 0px;
+ margin-left: 36px;
+ margin-top:20px;
+}
+.text_06{
+ font-family: 'Lato';
+ color:rgb(88,89,91);
+ font-size:15px;
+ line-height: 19px;
+ letter-spacing: 0px;
+ margin-left: 283px;
+ margin-top:28px;
+}
+.btn_bg{
+	width:568px;
+	height:80px;
+	margin-left: 36px;
+	margin-bottom: 2px;
+	color:rgb(188,190,192);
+	background-color:rgb(255,255,255);
+	cursor:pointer;
+}
+.btn_green{
+	color:rgb(255,255,255);
+    background-color:rgb(38,235,201);
+}
+
+.btn_title{
+	width:400px;
+	height:30px;
+	font-family: 'Conduit';
+	font-size:50px;
+	line-height: 43px;
+	letter-spacing: 0px;
+	padding-top:19px;
+	margin-left:40px;
+}
+.content_bg{
+	margin-left: 36px;
+	margin-bottom: 2px;
+	background-color:rgb(255,255,255);
+}
+.set_01{
+	width:568px;
+	height:414px;
+}
+.set_02{
+	width:568px;
+	height:414px;
+}
+.set_03{
+	width:568px;
+	height:360px;
+}
+.set_04{
+	width:568px;
+	height:360px;
+}
+.set_05{
+	width:568px;
+	height:656px;
+}
+.content{
+	font-family: 'Lato';
+	color: rgb(148,148,153);
+	font-size:21px;
+	line-height: 27px;
+	letter-spacing: 0px;
+	padding-top:25px;
+	margin-left:34px;
+}
+.img_01{
+	width:500px;
+	height:190px;
+	margin-top:28px;
+	margin-left:34px;
+	margin-bottom:34px;
+	background-image:url('../img/treatments/make_a_smile/mobile/make_a_smile_01_mobile.jpg');
+}
+.img_02{
+	width:500px;
+	height:190px;
+	margin-top:28px;
+	margin-left:34px;
+	margin-bottom:34px;
+	background-image:url('../img/treatments/make_a_smile/mobile/make_a_smile_02_mobile.jpg');
+}
+.img_03{
+	width:500px;
+	height:190px;
+	margin-top:28px;
+	margin-left:34px;
+	margin-bottom:34px;
+	background-image:url('../img/treatments/make_a_smile/mobile/make_a_smile_03_mobile.jpg');
+}
+.img_04{
+	width:500px;
+	height:190px;
+	margin-top:28px;
+	margin-left:34px;
+	margin-bottom:34px;
+	background-image:url('../img/treatments/make_a_smile/mobile/make_a_smile_04_mobile.jpg');
+}
+.img_05{
+	width:500px;
+	height:190px;
+	margin-top:28px;
+	margin-left:34px;
+	margin-bottom:34px;
+	background-image:url('../img/treatments/make_a_smile/mobile/make_a_smile_05_mobile.jpg');
+}

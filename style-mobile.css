@@ -1,0 +1,223 @@
+/*
+Theme Name: RA [Mobile]
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: ra
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ RA is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
+/* =Reset
+-------------------------------------------------------------- */
+
+/*-----------------------------------------------
+= RA Mobile Style.css
+= Sep.13.2013
+-----------------------------------------------*/
+#content_m, #page_m, #landing_m{
+	max-width: 640px;
+	width: 640px;
+}
+
+#page_m{
+	min-height: 266px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content_m img, #landing_m img{
+	display:block;
+	border:none;
+}
+
+.site-branding_m{
+	max-width: 640px;
+	width: 640px;
+	height: 145px;
+	margin:0 auto;
+	z-index: 9999;
+}
+
+/* LOGO */
+.RALogo_m{
+	margin:35px 0px 0px 36px;	
+	float:left;
+	width: 218px;
+	height: 38px;
+}
+
+/* footer SNS buttons */
+#shareBtnFooter
+{
+	float:right;
+	margin-top: 9px;
+	margin-right: 9px;
+}
+.mr_social_sharing
+{
+	margin-left: 19px;
+}
+
+/* Menu Navigation */
+#navi_m{
+	width: 640px;
+	max-width:640px;
+}
+#menu-mobile
+{
+	width: 640px;
+	margin: 0;
+}
+#navi_m .menu-mobile-container>ul>li{
+	width: 640px;
+	font-family: 'Conduit';
+	background-color:rgb(38,235,201);
+	letter-spacing: -1px;
+    text-transform: uppercase;
+    padding-top:5px;
+    margin-bottom: 2px;
+	cursor: pointer;
+	font-size: 50px;
+	vertical-align: center;
+}
+#navi_m .menu-mobile-container>ul>li>a{
+	width: 605px;
+	color: rgb(255,255,255);
+	font-size: 50px;
+	height:80px;
+	padding-left: 36px;
+}
+#navi_m .menu-mobile-container>ul>li>ul{
+	width: 640px;
+	background-color:rgb(255,255,255);
+	letter-spacing: -2px;
+    text-transform: uppercase;
+	cursor: pointer;
+	margin: 0;
+}
+#navi_m .menu-mobile-container>ul>li>ul>li{
+
+	padding-top: 1px;
+	padding-bottom: 2px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(234,234,235);
+}
+#navi_m .menu-mobile-container>ul>li>ul>li:last-child{
+	padding-top: 4px;
+	padding-bottom: 3px;
+	border-bottom: 0px;
+}
+#navi_m .menu-mobile-container>ul>li>ul>li>a{
+
+	color:rgb(148,148,153);
+	font-size: 40px;
+	padding-left: 34px;
+}
+/* #Menu Navigation */
+
+/* Search Button */
+#searchBtn_touchArea{
+	position: relative;
+	left: 530;
+	width: 103px;
+	height: 100px;
+}
+.searchBtn_m_icon{
+	background-image: url('./img/button/search_button_mobile.png');
+	background-repeat:no-repeat;
+    background-position:left top; 
+	width: 33px;
+	height: 33px;
+	margin-left:29px;
+	margin-top:31px;
+}
+/* #Search Button */
+
+#empty_touchArea{
+	position: absolute;
+	top: 0;
+	width:510px;
+	height:145px;
+	float:left;
+	padding: 0 auto;
+}
+
+/* Menu Button */
+#menuBtn_touchArea{
+	position: relative;
+	left:188px;
+	top:-30px;
+	width:110px;
+	height:100px;
+	float: left;
+}
+#menuBtn_m{
+	background-image: url('./img/button/menu_mobile.png');
+	background-repeat:no-repeat;
+    background-position:left top; 
+	width: 67px;
+	height: 27px;
+	margin-left:30px;
+	margin-top:33px;
+	position: absolute;
+}
+/* #Menu Button */
+
+/* Footer */
+
+/* Site Info Footer */
+#colophon_m{
+	width: 640px;
+	height:266px;
+}
+.site-info_m{
+	width:88.75%;
+	line-height: 36px;
+	/*margin: 0 auto;*/
+	text-align: left;
+	font-family: 'Lato' Arial,Helvetica,sans-serif;
+	font-size: 11pt;
+	color: rgb(148,148,153);
+	border-top: 1px solid rgba(148,148,153, 0.2);
+	padding-top: 5px;
+	padding-bottom: 40px;
+	margin-top: 22px;
+	margin-left: 36px;
+}
+
+/* SNS Footer */
+#colophon_m p{
+	font-size: 13px;
+}
+#colophon_m .mr_social_sharing_wrapper{
+	width:100%;
+	margin: 0 auto;
+	padding: 0;
+}
+#colophon_m span{
+	padding-left: 23px;
+}
+
+#colophon_m span img{
+	width:34px;
+	height:35px;
+}
+
+/* #Footer */

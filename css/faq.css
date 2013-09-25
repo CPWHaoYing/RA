@@ -1,0 +1,96 @@
+/*faq*/
+/* */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+.main{
+  width:1024px;
+  height:880px;
+  margin-bottom: 15px;
+  opacity:0;
+  background-repeat:no-repeat;
+  filter: alpha(opacity = 0);
+}
+.text_area{
+  width:480px;
+  height:880px;
+  margin-right: 36px;
+  position: relative;
+  float: right;
+}
+.title{
+  width:376px;
+  height:98px;
+  font-family: 'Conduit';
+  color:rgb(255,255,255);
+  font-size:58px;
+  letter-spacing: -1px;
+  position: relative;
+  margin-top:60px;
+  margin-left: 104px;
+  line-height: 48px;
+}
+
+.text_wrap{
+  background-color:white;
+  width:480px;
+  height:597px;
+  margin-top:125px;
+  position: relative;
+}
+.left_text_wrap{
+ width:236px;
+ height:579px;
+ float: left;
+ margin-top:15px;
+ margin-left:16px;
+}
+.left_01{
+ font-family: 'Lato';
+ color:rgb(148,148,153);
+ font-size:12px;
+ line-height: 16px;
+ letter-spacing: 0px;
+}
+.left_02{
+ font-family: 'Lato';
+ color:rgb(38,235,201);
+ font-size:16px;
+ letter-spacing: 0px;
+ line-height: 19px;
+ font-weight: bold;
+}
+.right_text_wrap{
+ width:220px;
+ height:579px;
+ float: left;
+ margin-top:15px;
+ margin-left:0px;
+}
+
+.contact_btn{
+ width:68px;
+ height:14px;
+ background-image:url('../img/button/contact.jpg');
+ cursor: pointer;
+ margin-top:8px;
+ margin-bottom:17px;
+}
+
+.divide_line{
+  width:205px;
+  height:3px;
+  margin-left: -6px;
+  background-image:url('../img/a_closer_look/concierge/concierge_line.png');
+  margin-bottom: 13px;
+}

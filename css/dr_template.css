@@ -1,0 +1,118 @@
+.main{
+  	width: 1024px;
+  	height: 539px;
+
+  	padding-top: 120px;
+  	margin-bottom: 218px;
+  	font-family: 'Lato', sans-serif;
+  	font-size: 12px;
+  	line-height: 16px;
+  	color: #949499;
+}
+.dr_title_box{
+	width: 236px;
+	height: 72px;
+	background-color: rgb(38, 235, 201);
+	float: center;
+	padding-top: 14px;
+	padding-left: 53px;
+	line-height: 18px;
+}
+.dr_name{
+	font-size: 19px;
+	line-height: 22px;
+	color: #FFF;
+}
+.dr_title{
+	font-size: 14px;
+	/*color: #58593D;*/
+	color: rgba(88,89,91,0.9);
+	font-style: italic;
+	padding-top: 0px;
+}
+
+.content_wrapper{
+	position: relative;
+	top: 110px;
+	left: 36px;
+	background-color: #FFF;
+	width: 497px;
+	height: 404px;
+}
+.text_left_wrapper_1{
+	position: absolute;
+	top:18px; 
+	left:18px;
+	width: 245px;
+
+}
+.text_left_wrapper_2{
+	position: absolute;
+	top:18px; 
+	left: 264px;
+	width: 215px;
+
+}
+.doctor_photo{
+	padding-top: 20px;
+	width: 262px;
+	height: 215px;
+}
+
+.text_right_wrapper{
+	position: absolute;
+	top:0;
+	left: 639px;
+	background-color: #FFF;
+	width: 313px;
+	height: 496px;
+}
+.subtitle{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: rgb(38, 235, 201);
+  	font-size: 12px;
+  	line-height: 14px;
+  	margin-bottom: 4px;
+}
+.text_right{
+	position: relative;
+	top:18px;
+	left: 18px;
+	line-height: 16px;
+}
+.schedule_button{
+	position: relative;
+	top: 10px;
+	left:162px;
+}
+.schedule_button_fixed{
+	position: absolute;
+	top: 356px;
+	left:815px;
+}
+.schedule_button_right_fixed{
+	position: absolute;
+	top: 450px;
+	left:162px;
+}
+
+.doctor_photo_leftend{
+	position: absolute;
+	top: 146px;
+	left: -18px;
+	width: 262px;
+	height: 215px;
+}
+
+.doctor_photo_rightend{
+	position: absolute;
+	top: 216px;
+	left: -18px;
+	width: 262px;
+	height: 215px;
+}

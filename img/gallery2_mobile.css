@@ -1,0 +1,280 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+ margin:0;
+ padding:0;
+}
+fieldset,img {
+ border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+ font-style:normal;
+ font-weight:normal;
+}
+ol,ul {
+ list-style:none;
+}
+caption,th {
+ text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+ font-size:100%;
+ font-weight:normal;
+}
+q:before,q:after {
+ content:'';
+}
+abbr,acronym { border:0;
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+.main_m{
+  width:640px;
+  height:1000px;
+}
+.title_bg{
+  width:100%;
+  height:112px;
+  background-color:rgb(233,233,233);
+}
+.title{
+  width:457px;
+  height:79px;
+  font-family: 'Conduit';
+  color:rgb(38,235,201);
+  font-size:60px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  padding-top: 33px;
+  margin-left:36px;
+  text-transform: uppercase;
+  float: left;
+  cursor: pointer;
+}
+.sub_categories{
+	width: 104px;
+	height: 88px;
+	float: left;
+}
+#selected_touchArea{
+	width:145px;
+	height: 44px;
+	cursor: pointer;
+}
+.selected_category{
+	font-size: 17px;
+	line-height: 22px;
+	padding-left: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.category_divide_line{
+	width: 104px;
+	height: 3px;
+	background-image:url('../img/button/divide_line_mobile.png');
+	margin-bottom: 11px;
+}
+#sub_touchArea{
+	width:145px;
+	height: 57px;
+	cursor: pointer;
+}
+.sub_category{
+	font-size: 17px;
+	line-height: 22px;
+	padding-top: 24px;
+	padding-left: 6px;
+	padding-bottom: 11px;
+	cursor: pointer;
+}
+.text_m{
+ font-family: 'Lato';
+ color:rgb(148,148,153);
+ font-size:21px;
+ line-height: 27px;
+ letter-spacing: 0px;
+ margin-left:36px;
+ padding-top: 33px;
+ margin-left:36px;
+}
+
+.text_m_bold{
+ font-family: 'Lato';
+ color:rgb(38,235,201);
+ font-size:24px;
+ line-height: 30px;
+ letter-spacing: 0px;
+ font-weight:bold;
+}
+
+.consulation{
+ width:271px;
+ height:27px;
+ background-image:url('../img/button/consultation_mobile.jpg');
+ cursor: pointer;
+ margin-top:575px;
+ margin-left:36px;
+}
+
+.content_select{
+	float:left;
+	width: 604px;
+	height: 543px;
+	margin-left:36px;
+}
+.content_select ul { 
+	padding: 0; 
+	margin: 0;
+}
+.content_select ul li {
+	float: left;
+	list-style-type: none;
+	cursor: pointer;
+	width: 91px;
+	height: 114px;
+	margin: 0px 28px 28px 0px;
+}
+.gallery_image
+{
+	width: 91px;
+	height: 114px;
+}
+
+/* Before & After */
+.zoomImage{
+	width:640px;
+	height:876px;
+	background-repeat: none;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+}
+.zoomImage_wrapper{
+	width:640px;
+	height:803px;
+	padding: 0;
+}
+
+#beforeDiv{
+	width:0px;
+	height:803px;
+	position: absolute;
+	overflow: hidden;
+	left: 0px;
+	z-index: 10;
+}
+#afterDiv{
+	width:640px;
+	height:803px;
+	position: absolute;
+	overflow: hidden;
+	right:0px;
+	z-index: 9;
+}
+#beforeImage{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 640px;
+	height: 803px;
+	min-width: 640px;
+	max-width: none;
+}
+#beforeImage img{
+	width:640px;
+	height: 803px;
+}
+#beforeImage #before_text, #beforeImage #after_text{
+	position: absolute;
+	left: 36px;
+	font-size: 15px;
+	color: #FFF;
+}
+#beforeImage #before_text{
+	top: 351px;
+}
+#beforeImage #after_text{
+	top: 763px;
+}
+#afterImage{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 640px;
+	height: 803px;
+	z-index: 10;
+}
+#previous_touchArea{
+	float:left;
+	width:250px;
+	height:70px;
+	cursor: pointer;
+}
+#previous_button{
+	background-image: url(../img/gallery1_m/prev_button_m.png);
+	position: absolute;
+	width: 111px;
+	height: 15px;
+	top: 821px;
+	left: 36px;
+	cursor: pointer;
+}
+#next_touchArea{
+	float:right;
+	width:250px;
+	height:70px;
+	cursor: pointer;
+}
+#next_button{
+	background-image: url(../img/gallery1_m/next_button_m.png);
+	position: absolute;
+	width: 68px;
+	height: 15px;
+	top: 821px;
+	left:525px;
+	cursor: pointer;
+}
+
+/* Before & After End */
+
+
+/* Loading Box */
+
+#loadingBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1000;
+	display: none;
+	box-sizing: content-box;
+}
+
+#loadingBox div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	background-image: url(../css/fancybox/fancybox.png);
+	box-sizing: content-box;
+}
+
+.loading_bg {
+	position: absolute;
+	top: 0;
+	height: 0;
+	width: 640px;
+	height: 803px;
+	background-color: #e9e9ea;
+	opacity: 0;
+	z-index: 11;
+}
+
+/* Loading Box End */

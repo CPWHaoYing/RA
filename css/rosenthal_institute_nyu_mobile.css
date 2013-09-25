@@ -1,0 +1,86 @@
+/*facial aesthetic design*/
+/* */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+.main{
+  width:640px;
+}
+.title_bg{
+  width:100%;
+  height:272px;
+  background-color:rgb(233,233,233);
+}
+.title{
+  width:457px;
+  height:200px;
+  font-family: 'Conduit';
+  color:rgb(38,235,201);
+  font-size:60px;
+  line-height: 50px;
+  letter-spacing: -2px;
+  padding-top: 35px;
+  margin-left:36px;
+}
+.text_area{
+  width:600px;
+  height:640px;
+  margin-left: 36px;
+  margin-top:28px;
+}
+.text_01{
+ font-family: 'Lato';
+ color:rgb(148,148,153);
+ font-size:21px;
+ line-height: 27px;
+ letter-spacing: 0px;
+}
+
+.text_04{
+ font-family: 'Lato';
+ color:rgb(88,89,91);
+ font-size:22px;
+ line-height: 27px;
+ letter-spacing: 0px;
+}
+.text_05_left{
+  font-family: 'Lato';
+  color:rgb(88,89,91);
+  font-size:16px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  margin-bottom:13px;
+}
+.text_05_right{
+  font-family: 'Lato';
+  color:rgb(88,89,91);
+  font-size:16px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  margin-bottom:13px;
+  font-style:italic;
+}
+.text_left{
+  float:left;
+}
+.text_right{
+  float:left;
+  margin-left:45px;
+}
+.divide_line{
+  width:410px;
+  height:3px;
+  background-image:url('../img/a_closer_look/rosenthal_institute/divide_line_02.jpg');
+  margin-bottom:27px;
+  margin-top:12px;
+}

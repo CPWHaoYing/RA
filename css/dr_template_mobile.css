@@ -1,0 +1,99 @@
+body{margin:0px;padding:0px;}
+
+.main {
+  	width: 640px;
+  	font-family: 'Lato', sans-serif;
+  	line-height: 16px;
+  	color: #949499;
+
+}
+.title_image {
+	width: 640px;
+	height: 272px;
+	background-size: 640px;
+}
+.dr_title_box {
+	position: absolute;
+	width: 313px;
+	height: 94px;
+	top:360px;
+	background-color: rgb(38, 235, 201);
+	line-height: 24px;
+	float: center;
+	padding-top: 20px;
+	padding-left: 36px;
+}
+.dr_name {
+	font-size: 26px;
+	line-height: 23px;
+	color: #FFF;
+	padding-bottom: 5px;
+}
+.dr_title {
+	font-size: 19px;
+	font-style: italic;
+	color: rgba(88,89,91,0.9);
+	padding-top: 0px;
+}
+
+.content_wrapper{
+	position: relative;
+	top: 88px;
+	left: 36px;
+	width: 560px;
+	font-size: 20px;
+	line-height: 1.3em;
+
+}
+.text_left_wrapper_1{
+	font-family: 'Lato';
+	font-size: 20px;
+	width: 560px;
+	height: 999px;
+}
+.doctor_photo img {
+	width: 570px;
+	height: 280px;
+}
+.text_left_wrapper_2{
+	width: 560px;
+	height: 813px;
+	line-height: 12px;
+}
+.text_left_wrapper_2 div{
+	line-height: 27px;
+	margin-bottom: 12px;
+}
+.subtitle {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: rgb(38, 235, 201);
+  	font-size: 23px;
+  	line-height: 27px;
+  	margin-top: 24px;
+  	margin-bottom: 18px;
+}
+
+
+.schedule_button{
+	position: absolute;
+	width: 272px;
+	height: 29px;
+}
+
+.left_margin{
+	margin-left: 16px;
+}
+
+.consulation{
+	 width:271px;
+	 height:27px;
+	 background-image:url('../img/button/consultation_mobile.jpg');
+	 cursor: pointer;
+	 margin-left: 36px;
+	 margin-top:125px;
+}

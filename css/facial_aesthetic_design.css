@@ -1,0 +1,134 @@
+/*facial aesthetic design*/
+/* */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+.main{
+  width:1024px;
+  height:724px;
+  opacity: 0;
+  background-repeat:no-repeat;
+  filter: alpha(opacity = 0);
+}
+.text_area{
+  width:480px;
+  height:709px;
+  margin-left: 36px;
+  position: relative;
+  float: left;
+}
+.title{
+  width:223px;
+  height:140px;
+  font-family: 'Conduit';
+  color:rgb(38,235,201);
+  font-size:58px;
+  letter-spacing: 0px;
+  position: relative;
+  margin-top:78px;
+  margin-left:13px;
+  line-height: 48px;
+}
+
+.text_wrap{
+  background-color:white;
+  width:480px;
+  height:405px;
+  margin-top:86px;
+  position: relative;
+}
+.left_text_wrap{
+ width:210px;
+ height:405px;
+ float: left;
+ margin-top:16px;
+ margin-left:18px;
+}
+.left_01{
+ font-family: 'Lato';
+ color:rgb(148,148,153);
+ font-size:12px;
+ line-height: 16px;
+ letter-spacing: 0px;
+}
+.left_02{
+ font-family: 'Lato';
+ color:rgb(38,235,201);
+ font-size:16px;
+ letter-spacing: 0px;
+ line-height: 19px;
+ font-weight: bold;
+}
+.right_text_wrap{
+ width:215px;
+ height:405px;
+ float: left;
+ margin-top:16px;
+ margin-left:30px;
+}
+.right_02{
+  margin-bottom: 12px;
+  width:215px;
+  height:40px;
+}
+.right_03{
+  margin-top: 13px;
+  margin-bottom: 16px;
+  width:180px;
+  height:45px;
+}
+.divide_line{
+  width:205px;
+  height:3px;
+  margin-left: -6px;
+  background-image:url('../img/a_closer_look/concierge/concierge_line.png');
+}
+.consulation{
+ width:143px;
+ height:14px;
+ background-image:url('../img/button/consultation.jpg');
+ float: right;
+ margin-top:676px;
+ margin-right:33px;
+ cursor: pointer;
+}
+a.link_WIB{
+  color:rgb(148,148,153) !important;
+  text-decoration: underline !important;
+  cursor:pointer;
+}
+a.link_WIB:hover{
+  color:rgb(148,148,153) !important;
+  text-decoration: underline !important;
+  cursor:pointer;
+}
+a.link_WIB:visited{
+  color:rgb(148,148,153) !important;
+  text-decoration: underline !important;
+  cursor:pointer;
+}
+a.link_SMO{
+  color:rgb(148,148,153) !important;
+  text-decoration: underline !important;
+  cursor:pointer;
+}
+a.link_SMO:hover{
+  color:rgb(148,148,153) !important;
+  text-decoration: underline !important;
+  cursor:pointer;
+}
+a.link_SMO:visited{
+  color:rgb(148,148,153) !important;
+  text-decoration: underline !important;
+  cursor:pointer;
+}
