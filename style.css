@@ -10,7 +10,7 @@ License URI: license.txt
 Text Domain: ra
 Domain Path: /languages/
 Tags:
-..
+
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
@@ -458,6 +458,13 @@ a:active {
 	height:36px;
 	width:656px\9;
 }
+
+/* Sep.26.2013 */
+.main-navigation .sub-menu{
+	padding-top: 3px;
+}
+/* Sep.26.2013 */
+
 .main-navigation ul {
 	list-style: none;
 	margin: 0;
