@@ -13,7 +13,7 @@
 <section id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 	<div id="main_bg"></div>
-	<div class="title">THE PAGE CAN'T BE FOUND</div> 
+	<div class="title">THE PAGE CAN'T BE FOUND</div>
 
 	<div id="result_wrap_404">
 

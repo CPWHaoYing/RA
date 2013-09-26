@@ -36,7 +36,7 @@ p{
 .msg_close_wrap{
   width:1024px;
   height: 47px;
-  margin-top:57px;
+  margin-top:64px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -46,6 +46,7 @@ p{
   background-image:url('../img/button/fancy_close.png');
   float: right;
   cursor: pointer;
+  margin-right:51px;
 }
 @media only screen and (device-width: 768px) {
     .msg_close{
@@ -197,7 +198,7 @@ p{
   line-height: 16px;
 }
 input[type=text]{
-    color:rgb(88,89,91);
+    color:rgb(88,89,91)!important;
     width:220px;
     *width: 216px;
     width: 216px\0/;
@@ -208,14 +209,13 @@ input[type=text]{
     margin-bottom: 16px;
     border:0 !important;
     border-radius: 0 !important;
-    color:rgb(191,191,191);
     padding-left:4px!important;
     padding-top:0px!important;
     padding-right:0px!important;
     padding-bottom:0px!important;
 }
 input[type=tel]{
-    color:rgb(88,89,91);
+    color:rgb(88,89,91)!important;
     width:220px;
     *width: 216px;
     width: 216px\0/;

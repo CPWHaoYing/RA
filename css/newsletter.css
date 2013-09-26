@@ -30,7 +30,7 @@ p{
 .msg_close_wrap{
   width:1024px;
   height: 47px;
-  margin-top:57px;
+  margin-top:64px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -39,6 +39,7 @@ p{
   height:47px;
   background-image:url('../img/button/fancy_close.png');
   float: right;
+  margin-right:51px;
   cursor: pointer;
 }
 @media only screen and (device-width: 768px) {

@@ -180,7 +180,7 @@ p{
   line-height: 30px;
 }
 input[type=text]{
-btn_bg    color:rgb(88,89,91);
+    color:rgb(88,89,91)!important;
     width:568px;
     height: 53px;
     text-decoration: none;
@@ -189,11 +189,10 @@ btn_bg    color:rgb(88,89,91);
     margin-bottom: 32px;
     border:0 !important;
     border-radius: 0 !important;
-    color:rgb(191,191,191);
     padding-left:12px!important;
 }
 input[type=tel]{
-    color:rgb(88,89,91);
+    color:rgb(88,89,91)!important;
     width:568px;
     height: 53px;
     text-decoration: none;
@@ -202,7 +201,6 @@ input[type=tel]{
     margin-bottom: 32px;
     border:0 !important;
     border-radius: 0 !important;
-    color:rgb(191,191,191);
     padding-left:12px!important;
 }
 input[type=email]{
