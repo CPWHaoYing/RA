@@ -73,7 +73,7 @@ Template Name: The Making of a Smile Mobile
 	  </div>
 
 	  <div class="btn_bg">
-	  	 <div class="btn_title">4YR FELLOW UP</div>
+	  	 <div class="btn_title">4YR FOLLOW UP</div>
 	  </div>
 	  <div class="content_bg set_05">
 	    <div class="content">

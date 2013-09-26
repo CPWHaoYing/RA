@@ -11,7 +11,7 @@ Template Name: Facial Aesthetic Design PC
 <div class="main cf" >
     <img id="background_image" src="#" style="display:none;"/>
 	<div class="text_area">
-		<div class="title">FACIAL AETHETIC DESIGN</div>
+		<div class="title">FACIAL AESTHETIC DESIGN</div>
 		<div class="text_wrap">
 			<div class="left_text_wrap">
 			   <div class="left_01">
