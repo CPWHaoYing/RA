@@ -16,10 +16,13 @@
 
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 	<div class="entry-summary">
+		<a href="<?php the_permalink(); ?>" rel="bookmark">
 		<?php
-           $excerpt = get_the_excerpt();
-           echo substr($excerpt,0,160);
+           // $excerpt = get_the_excerpt();
+           // echo substr($excerpt,0,160);
+		   echo the_excerpt();
         ?>
+        </a>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">

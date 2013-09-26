@@ -99,11 +99,11 @@ $(function(){
     $('#next_btn').attr('src', 'http://cmykpluswhite.biz/RA-NewSite/wp-content/plugins/wp-pagenavi/img/next_mobile.jpg');
 
     // Smooth Click Event
-    $("article").each(function(){
-        $(this).click(function() {
-            document.location.href = $(this).find("a").attr("href");
-        });
-    });
+    // $("article").each(function(){
+    //     $(this).click(function() {
+    //         document.location.href = $(this).find("a").attr("href");
+    //     });
+    // });
     $(".align_middle_table td").each(function(){
         $(this).click(function() {
             document.location.href = $(this).attr("href");

@@ -145,4 +145,17 @@ return $query;
 }
 add_filter('pre_get_posts','SearchFilter');
 
+// add by qi limit word in search result page
+function custom_excerpt_length( $length ) {
+	if ( wp_is_mobile_not_tablet()==true )
+	    return 25;
+    else
+    	return 38;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function new_excerpt_more( $more ) {
+	return ' ...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 ?>
