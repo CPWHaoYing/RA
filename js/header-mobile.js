@@ -1,4 +1,5 @@
 $(function(){
+	var navi_number = -1;
 	
 	// fastclick.js append
 	var fastclick_js = '<script type="text/javascript" src="' + templateUrl +'/js/fastclick.js"></script>';
@@ -35,7 +36,12 @@ $(function(){
 
     // Fast Click for click events
 	window.addEventListener('load', function() {
-    	new FastClick(document.body);
+		var href_name = location.href.split('/')[location.href.split('/').length-2];
+
+  		if(href_name != "the-making-of-a-smile" && href_name != "client-testimonials") 
+  		{
+    		new FastClick(document.body);
+    	}
 	}, false);
 	// #Fast Click for click events
 
@@ -87,18 +93,39 @@ $(function(){
 
   	// submenu -> Menu Button Click Event
   	$("#menuBtn_touchArea").click(function(){
-  		// Search result page -> Menu
-  		$("#searchBtn_m").css({"background-position":"left top"});
 
-  		$('head meta[name=viewport]').remove();
-	    $('head').prepend('<meta name="viewport" content="width=640px, minimum-scale=0.5, maximum-scale=1, user-scalable=0.5" />');
+  		if ($("#menuBtn_m").is(":visible"))
+  		{
+	  		// Search result page -> Menu
+	  		$("#searchBtn_m").css({"background-position":"left top"});
 
-  		if ($(".search_bg_m").is(":visible")) {
-  			hideSearchArea();
+	  		$('head meta[name=viewport]').remove();
+		    $('head').prepend('<meta name="viewport" content="width=640px, minimum-scale=0.5, maximum-scale=1, user-scalable=0.5" />');
+
+	  		if ($(".search_bg_m").is(":visible")) {
+	  			hideSearchArea();
+	  		}
+	  		$("#content_m").hide();
+	  		$("#navi_m").show();
+	  		$("#menuBtn_m").hide();
+
+	  		var href_name = location.href.split('/')[location.href.split('/').length-2];
+
+	  		if(href_name == "dr-apa" 
+	  			|| href_name == "dr-rosenthal"	
+	  			|| href_name == "rosenthal-institute-nyu" 
+	  			|| href_name == "newsletter")
+	  			$('#menu-mobile > li:eq(0)').click();
+	  		else if(href_name == "the-making-of-a-smile" 
+	  			|| href_name == "facial-aesthetic-design" 
+	  			|| href_name == "smile-makeover" 
+	  			|| href_name == "faq")
+	  			$('#menu-mobile > li:eq(1)').click();
+	  		else if(href_name == "gallery-1" 
+	  			|| href_name == "gallery-2" 
+	  			|| href_name == "client-testimonials")
+	  			$('#menu-mobile > li:eq(2)').click();
   		}
-  		$("#content_m").hide();
-  		$("#navi_m").show();
-  		$("#menuBtn_m").hide();
   	});
   	
   	// pages -> Search Button Click Event
