@@ -18,7 +18,7 @@ $(function(){
 			$("#content").prepend("<div class='search_bg'></div>");
 			$('.search_bg').height(overlay_height);
 			// insert the form box to the top of #content
-			$("#content").prepend("<div id='search_input_box'>" + search_form + "</div><div id='search_text' class='search_text'>Begin typing to Search.</div>");
+			$("#content").prepend("<div id='search_input_box'>" + search_form + "</div><div id='search_text' class='search_text'>Begin typing to search.</div>");
 
 			$("#content .search-field").attr('id', 'search_input');
 			$("#search_input").focus();

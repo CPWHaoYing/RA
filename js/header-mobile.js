@@ -10,8 +10,8 @@ $(function(){
 	// #fastclick.js append
 
 	// SNS Footer Image Styling
-	$(".mr_social_sharing:eq(0) img").attr("src", templateUrl + "/img/button/sns_01_mobile.png");
-	$(".mr_social_sharing:eq(1) img").attr("src", templateUrl + "/img/button/sns_02_mobile.png");
+	//$(".mr_social_sharing:eq(0) img").attr("src", templateUrl + "/img/button/sns_01_mobile.png");
+	//$(".mr_social_sharing:eq(1) img").attr("src", templateUrl + "/img/button/sns_02_mobile.png");
 	// # SNS Footer Image Styling
 
 	// Landing Page Sequence
@@ -121,7 +121,7 @@ $(function(){
 			$("#page_m #masthead").append("<div class='search_bg_m'></div>");
 			$('.search_bg_m').height(overlay_height);
 			// insert the form box to the top of #content_m
-			$("#page_m").prepend("<div id='search_input_box_m'>" + search_form + "</div><div id='search_text_m' class='search_text_m'>Begin typing to Search.</div>");
+			$("#page_m").prepend("<div id='search_input_box_m'>" + search_form + "</div><div id='search_text_m' class='search_text_m'>Begin typing to search.</div>");
 			$("#page_m .search-field").attr('id', 'search_input_m');
 
 			$("#search_input_m").replaceWith('<textarea id="search_input_m" class="searchfield" placeholder value name="s" rows="2" title="Search for:"></textarea>');

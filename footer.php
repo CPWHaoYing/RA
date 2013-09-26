@@ -15,12 +15,17 @@
 			<?php do_action( 'ra_credits' ); ?>
 			<p style="float:left">Copyright © 2013 Rosenthal Apa Group. All rights reserved.</p>
 
-			<div id="shareBtnFooter" style="float:right;margin-top:-6px;">
-				<?php
-					$social_sharing_toolkit = new MR_Social_Sharing_Toolkit();
-					echo $social_sharing_toolkit->create_bookmarks();
-				?>
+			<div id="shareBtnFooter" style="float:right;">
+				<a href="https://www.facebook.com/pages/Rosenthal-Apa-Group/151158578238008?v=wall" style="margin-right:8px;" target="_blank">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/img/fbButton.png">
+				</a>
+
+				<a href="https://twitter.com/RosenthalApa" target="_blank">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitterButton.png" style="margin-right:4px;">
+				</a>
+
 			</div>
+
 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

@@ -32,7 +32,7 @@ Template Name: Client Testimonials PC
 					</table></li>
 					<li class="miniBox" id="box02"><table class="tableBox4Lines">
 						<tr><td>Thank</td></tr>
-						<tr><td>You-This</td></tr>
+						<tr><td>You&#8212;This</td></tr>
 						<tr><td>Means So</td></tr>
 						<tr><td>Much</td></tr>
 					</table></li>
