@@ -451,17 +451,17 @@ a:active {
 	clear: both;
 	position: absolute;
 	font-size: 11pt;
-	margin-top: 50px;
+	margin-top: 48px;
 	margin-left: 300px;
 	text-decoration: none;
 	width:637px;
 	height:36px;
-	width:656px\9;
+	width:656px;
 }
 
 /* Sep.26.2013 */
 .main-navigation .sub-menu{
-	padding-top: 3px;
+	padding-top: 5px;
 }
 /* Sep.26.2013 */
 
@@ -781,7 +781,7 @@ object {
 	width:22px;
 	height: 22px;
 	float: right;
-	margin-top:50px;
+	margin-top:48px;
 	margin-right: 38px;	
 }
 

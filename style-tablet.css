@@ -4,18 +4,18 @@
 
 .main-navigation-tablet .treatments .sub-menu{
 	/* left: -1px; */
-	left: -20px;
+	/*left: -20px;*/
 }
 
 .main-navigation-tablet .sub-menu{
-	padding-top: 3px;
+	padding-top: 5px;
 }
 
 .main-navigation-tablet {
 	clear: both;
 	position: absolute;
 	font-size: 11pt;
-	margin-top: 50px;
+	margin-top: 47px;
 	margin-left: 300px;
 	text-decoration: none;
 	width:637px;
@@ -143,6 +143,12 @@
 .main-navigation-tablet li.current-menu-item ul a {
 	color:rgb(148, 148, 153);
 }
+
+
+.main-navigation-tablet ul li:nth-child(2) ul{
+	width:540px;
+}
+
 /*
 .main-navigation-tablet ul li:hover > ul{
 	display: block;

@@ -26,7 +26,7 @@ Template Name: Concierge
 	    	</div>
     		<div class="subtitle_under_box">
     			QUINTESSENTIALLY <br/>
-    			Lorraine Wile  212 206.6633 <br/>
+    			Lorraine Wile  212.206.6633 <br/>
     			<a href="http://www.quintessentially.com/" target="_blank">
     				<div id="visit_site"></div>
     			</a>

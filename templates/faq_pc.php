@@ -23,7 +23,7 @@ Template Name: Frequently Asked Questions PC
 					It is approximately  a half millimeter</br>
 					thick, roughly the same as a baby’s</br>
 					fingernail. The natural tooth requires</br>
-					minimal preparation–sometimes none</br>
+					minimal preparation—sometimes none</br>
 					at all. With a veneer there’s no dark line</br>
 					above the tooth, which is often the case</br>
 					with a crown. A crown—or cap—covers</br>
